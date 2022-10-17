@@ -1,0 +1,98 @@
+* {
+  margin: 15px 0px 0;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+body {
+  background: #042159;
+  color: #94ada3;
+}
+
+.title {
+  text-align: center;
+  width: 500px;
+  color: #04090a;
+}
+
+.secondtitle {
+  text-align: center;
+  width: 500px;
+  color: #04090a;
+}
+
+.content,
+h1 {
+  width: 700px;
+  margin: 0 auto;
+  background-color: #354e44;
+  padding: 2%;
+  padding-left: 2%;
+}
+
+.secondTitle,
+h3 {
+  width: 650px;
+  margin: 0 auto;
+  background-color: #354e44;
+  padding: 2%;
+  padding-left: 2%;
+}
+
+.form {
+  padding: 0px;
+}
+
+.formLine {
+  display: inline-flex;
+  padding: 10px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+input,
+select {
+  width: 130px;
+  margin-left: 10px;
+}
+
+/* table style */
+table {
+  width: 100%;
+}
+
+thead {
+  background-color: #111827;
+  line-height: 30px;
+}
+
+/* Button */
+
+button {
+  width: 180px;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.1em;
+  line-height: 20px;
+  background-color: #19b5fe;
+  border-radius: 5px;
+  margin: 14px 25%;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+form input {
+  flex: 1;
+  margin-left: 5px;
+  margin-right: 5px;
+}
